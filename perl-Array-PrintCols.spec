@@ -20,11 +20,11 @@ Summary(uk):	Модуль для Perl %{pdir}::%{pnam}
 Summary(zh_CN):	%{pdir}::%{pnam} Perl дё©И
 Name:		perl-Array-PrintCols
 Version:	2.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.0.2-104
 BuildRequires:	perl >= 5.005
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
