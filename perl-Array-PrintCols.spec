@@ -10,7 +10,7 @@ Summary(pl):	Array::PrintCols - formatowanie tablicy w pionowo posortowanych kol
 Name:		perl-Array-PrintCols
 Version:	2.1
 Release:	3
-License:	GPL
+License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	b8780d4eda58c33d70c0999232c633bd
