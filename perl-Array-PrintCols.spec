@@ -45,7 +45,7 @@ kolumn, ca³kowit± szeroko¶æ wyj¶cia oraz liczbê wciêæ.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 #%{__make} test
 
