@@ -1,0 +1,11 @@
+--- Array-PrintCols-2.1/PrintCols.pm.orig	Sun Jan 18 08:17:44 1998
++++ Array-PrintCols-2.1/PrintCols.pm	Wed Dec 17 17:12:15 2003
+@@ -57,7 +57,7 @@
+     my($total_width) = shift || $ENV{'COLUMNS'} || 80;
+     my($indent)      = shift || 0;
+ 
+-    my($key,$max_len,$cols,$fmt,$cols,$col,$rows,$row);
++    my($key,$max_len,$fmt,$cols,$col,$rows,$row);
+ 
+     my $o = '';		# start of the output
+ 
