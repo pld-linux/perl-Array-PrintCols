@@ -35,8 +35,11 @@ alphabetically, vertically sorted columns.  Optional arguments can be
 given to control either the width or number of the columns, the total
 width of the output, and the amount of indentation.
 
-# %description -l pl
-# TODO
+%description -l pl
+Modu³ Array::PrintCol definiuje funkcjê do wypisywania tablic
+elementów alfabetycznie, w pionowych posortowanych kolumnach. Mo¿na
+przekazaæ opcjonalne parametry, kontroluj±ce szeroko¶æ lub liczbê
+kolumn, ca³kowit± szeroko¶æ wyj¶cia oraz liczbê wciêæ.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
