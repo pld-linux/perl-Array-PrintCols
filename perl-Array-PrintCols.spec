@@ -47,7 +47,7 @@ kolumn, ca³kowit± szeroko¶æ wyj¶cia oraz liczbê wciêæ.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 #%%{__make} test
 
