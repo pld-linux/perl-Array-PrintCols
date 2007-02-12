@@ -6,7 +6,7 @@
 %define		pdir	Array
 %define		pnam	PrintCols
 Summary:	Array::PrintCols - print or format array elements in vertically sorted columns
-Summary(pl):	Array::PrintCols - formatowanie tablicy w pionowo posortowanych kolumnach
+Summary(pl.UTF-8):   Array::PrintCols - formatowanie tablicy w pionowo posortowanych kolumnach
 Name:		perl-Array-PrintCols
 Version:	2.1
 Release:	3
@@ -26,11 +26,11 @@ alphabetically, vertically sorted columns. Optional arguments can be
 given to control either the width or number of the columns, the total
 width of the output, and the amount of indentation.
 
-%description -l pl
-Modu³ Array::PrintCol definiuje funkcjê do wypisywania tablic
-elementów alfabetycznie, w pionowych posortowanych kolumnach. Mo¿na
-przekazaæ opcjonalne parametry, kontroluj±ce szeroko¶æ lub liczbê
-kolumn, ca³kowit± szeroko¶æ wyj¶cia oraz liczbê wciêæ.
+%description -l pl.UTF-8
+ModuÅ‚ Array::PrintCol definiuje funkcjÄ™ do wypisywania tablic
+elementÃ³w alfabetycznie, w pionowych posortowanych kolumnach. MoÅ¼na
+przekazaÄ‡ opcjonalne parametry, kontrolujÄ…ce szerokoÅ›Ä‡ lub liczbÄ™
+kolumn, caÅ‚kowitÄ… szerokoÅ›Ä‡ wyjÅ›cia oraz liczbÄ™ wciÄ™Ä‡.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
