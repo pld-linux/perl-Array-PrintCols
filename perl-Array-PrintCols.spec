@@ -9,7 +9,7 @@ Summary:	Array::PrintCols - print or format array elements in vertically sorted 
 Summary(pl.UTF-8):	Array::PrintCols - formatowanie tablicy w pionowo posortowanych kolumnach
 Name:		perl-Array-PrintCols
 Version:	2.1
-Release:	3
+Release:	4
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
