@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Array
 %define		pnam	PrintCols
+%include	/usr/lib/rpm/macros.perl
 Summary:	Array::PrintCols - print or format array elements in vertically sorted columns
 Summary(pl.UTF-8):	Array::PrintCols - formatowanie tablicy w pionowo posortowanych kolumnach
 Name:		perl-Array-PrintCols
@@ -15,6 +15,7 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	b8780d4eda58c33d70c0999232c633bd
 Patch0:		%{name}-fix.patch
+URL:		http://search.cpan.org/dist/Array-PrintCols/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
