@@ -4,7 +4,6 @@
 
 %define		pdir	Array
 %define		pnam	PrintCols
-%include	/usr/lib/rpm/macros.perl
 Summary:	Array::PrintCols - print or format array elements in vertically sorted columns
 Summary(pl.UTF-8):	Array::PrintCols - formatowanie tablicy w pionowo posortowanych kolumnach
 Name:		perl-Array-PrintCols
