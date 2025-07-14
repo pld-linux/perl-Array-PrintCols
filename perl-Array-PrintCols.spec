@@ -34,7 +34,7 @@ kolumn, całkowitą szerokość wyjścia oraz liczbę wcięć.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__perl} Makefile.PL \
